@@ -1,2 +1,2 @@
-# Exerc-cios-POO-JAVA
+# Exercicios-POO-JAVA
 Exercícios Utilizados na  Aula de POO_
