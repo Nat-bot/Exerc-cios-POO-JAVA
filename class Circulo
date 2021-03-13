@@ -1,0 +1,28 @@
+public class Circulo {
+	//atributos
+	float x;
+	float y;
+	float raio;
+	
+	public void move(float x, float y) {
+		this.x = x; 
+		this.y = y;
+	}
+	public void raio (float r) {
+		this.raio = r;	
+	}
+	
+	
+	public void imprime () {
+		System.out.println ("Círculo [x: "+x+", y: "+y+", Raio: "+raio+"]");
+	//ou//System.out.println("Círculo ("+this+") [x: "+x+", y: "+y+", Raio: "+raio+", Área: 
+	// "String.format("%.2f,calcularArea());	
+	}
+	
+	public double calcularArea() {
+		return (Math.PI * raio * raio);
+		//ou return (float)(Math.PI * Math.pow(raio, 2) );
+		
+	}
+}
+  //Aqui montamos a forma, na próxima aba, teremos os objetos
